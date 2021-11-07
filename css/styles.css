@@ -771,10 +771,7 @@ transition: transform 250ms var(--main-timing);
 }
 
 .sub-btn-icon {
-	position: absolute;
-	top: 50%;
-	left: 148px;
-	transform: translateY(-50%);
+  margin-left: 8px;
 	display: inline-block;
 	width: 24px;
 	height: 24px;
@@ -845,6 +842,7 @@ transition: transform 250ms var(--main-timing);
 
 .modal-title{
   display: inline-block;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.17;
@@ -939,6 +937,7 @@ transition: transform 250ms var(--main-timing);
 
 .form-checkbox {
   position: absolute;
+  appearance: none;
 }
 
 .form-checkbox:focus + .checkbox,
